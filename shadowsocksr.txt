@@ -1,0 +1,6 @@
+sudo su -
+cd
+git clone https://github.com/1535315854/shadowsocksr.git
+cd shadowsocksr/
+vim config.json
+python ~/shadowsocksr/shadowsocks/local.py -c config.json
